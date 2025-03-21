@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>这是一篇新的博文</title>
-      <link href="/2025/03/21/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E5%8D%9A%E6%96%87/"/>
-      <url>/2025/03/21/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E5%8D%9A%E6%96%87/</url>
+      <title>搭建个人博客</title>
+      <link href="/2025/03/21/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2025/03/21/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
       
-        <content type="html"><![CDATA[<div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
+        <content type="html"><![CDATA[<h2 id="1-前期准备工作"><a href="#1-前期准备工作" class="headerlink" title="1. 前期准备工作"></a>1. 前期准备工作</h2><ol><li><a href="https://nodejs.org/en">Node</a>（<strong>必备</strong>）</li><li><a href="https://git-scm.com/downloads">Git</a>（<strong>必备</strong>）</li><li><a href="https://code.visualstudio.com/">VSCode</a>（<strong>可选</strong>）</li><li></li></ol><h2 id="2-安装-Node"><a href="#2-安装-Node" class="headerlink" title="2. 安装 Node"></a>2. 安装 Node</h2><p>从 <a href="https://nodejs.org/en">Node 官网</a> 下载适合自己系统的版本。</p><p>完成安装，Windows电脑建议使用默认目录 <code>C:/Program Files/nodejs/</code>，苹果电脑无所谓。</p><p>验证安装成功，在命令行中输入 <code>node -v</code> 检查版本信息。</p><h2 id="3-安装-Git"><a href="#3-安装-Git" class="headerlink" title="3. 安装 Git"></a>3. 安装 Git</h2><p>从 <a href="https://git-scm.com/downloads">Git 官网</a> 下载适配的 Git 版本</p><h2 id="4-配置-Git-密钥并连接至-Github"><a href="#4-配置-Git-密钥并连接至-Github" class="headerlink" title="4. 配置 Git 密钥并连接至 Github"></a>4. 配置 Git 密钥并连接至 Github</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config -l</span><br><span class="line">git config --system --list</span><br><span class="line">git config --global --list</span><br></pre></td></tr></table></figure><h2 id="5-配置用户名和邮箱"><a href="#5-配置用户名和邮箱" class="headerlink" title="5. 配置用户名和邮箱"></a>5. 配置用户名和邮箱</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;你的用户名&quot;</span><br><span class="line">git config --global user.email &quot;你的邮箱&quot;</span><br></pre></td></tr></table></figure><h3 id="6-配置公钥连接-Github"><a href="#6-配置公钥连接-Github" class="headerlink" title="6. 配置公钥连接 Github"></a>6. 配置公钥连接 Github</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;你的邮箱&quot;</span><br></pre></td></tr></table></figure>]]></content>
       
       
       
