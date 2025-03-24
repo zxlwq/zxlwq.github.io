@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>npm报错</title>
+      <link href="/wenzhang/2025/"/>
+      <url>/wenzhang/2025/</url>
+      
+        <content type="html"><![CDATA[<h1 id="npm错误！无法读取未定义错误处理的属性“匹配”"><a href="#npm错误！无法读取未定义错误处理的属性“匹配”" class="headerlink" title="npm错误！无法读取未定义错误处理的属性“匹配”"></a>npm错误！无法读取未定义错误处理的属性“匹配”</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm ERR! Cannot read properties of null (reading &#x27;matches&#x27;)</span><br><span class="line">npm ERR! A complete log of this run can be found in:</span><br><span class="line">npm ERR! /Users/twalterspieler/.npm/_logs/2022-06-03T21_28_12_401Z-debug-0.log</span><br></pre></td></tr></table></figure><ol><li><p>强制清除npm缓存</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm cache clear --force</span><br></pre></td></tr></table></figure></li><li><p>如果错误仍然存在，请删除<code>node_modules</code></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm -rf node_modules</span><br></pre></td></tr></table></figure></li><li><p>重新清除npm缓存</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm cache clear --force</span><br></pre></td></tr></table></figure></li><li><p>然后重新安装npm</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
